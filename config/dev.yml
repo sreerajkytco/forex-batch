@@ -1,0 +1,15 @@
+env: "dev"
+memorySize: 256
+timeout: 15
+maximumRetryAttempts: 1
+SCHEDULE_TIME_FREQUENCY: "10 minutes"
+PG_SECRET_KEY: "skynet-qa/rds/oms"
+EXCHANGE_RATE_URL: "https://sit-secure.yappay.in/Yappay/forex-manager/fetchExchangeRate"
+FOREX_API_BEARER_TOKEN: "Basic YWRtaW46YWRtaW4="
+FOREX_API_TIMEOUT: "10000"
+FOREX_API_TENANT: "SBKYT"
+PG_DATABASE: "oms"
+PG_HOST: "read-from-aws"
+PG_PORT: "read-from-aws"
+PG_USERNAME: "read-from-aws"
+PG_PASSWORD: "read-from-aws"

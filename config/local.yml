@@ -1,0 +1,15 @@
+env: "local"
+memorySize: 256
+timeout: 30
+maximumRetryAttempts: 0
+SCHEDULE_TIME_FREQUENCY: "10 minutes"
+EXCHANGE_RATE_URL: "https://sit-secure.yappay.in/Yappay/forex-manager/fetchExchangeRate"
+FOREX_API_BEARER_TOKEN: "Basic YWRtaW46YWRtaW4="
+FOREX_API_TIMEOUT: "10000"
+FOREX_API_TENANT: "SBKYT"
+PG_DATABASE: "oms"
+PG_HOST: "localhost"
+PG_PORT: 5432
+PG_USERNAME: "kyt"
+PG_PASSWORD: "kyt"
+PG_SECRET_KEY: "none"

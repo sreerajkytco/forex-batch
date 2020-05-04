@@ -1,0 +1,15 @@
+env: "prod"
+memorySize: 1024
+timeout: 60
+maximumRetryAttempts: 1
+SCHEDULE_TIME_FREQUENCY: "3 hours"
+PG_SECRET_KEY: "not-yet-set"
+EXCHANGE_RATE_URL: "https://sit-secure.yappay.in/Yappay/forex-manager/fetchExchangeRate"
+FOREX_API_BEARER_TOKEN: "Basic YWRtaW46YWRtaW4="
+FOREX_API_TIMEOUT: "5000"
+FOREX_API_TENANT: "SBKYT"
+PG_DATABASE: "oms"
+PG_HOST: "read-from-aws"
+PG_PORT: "read-from-aws"
+PG_USERNAME: "read-from-aws"
+PG_PASSWORD: "read-from-aws"

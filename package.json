@@ -1,0 +1,46 @@
+{
+  "name": "forex-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exec": "serverless invoke local --function forex-exchange-handler -e PG_HOST=localhost -e PG_USERNAME=kyt -e PG_PASSWORD=kyt -e PG_DATABASE=oms -e STAGE=local",
+    "deploy": "npm run build && sls deploy",
+    "build": "rm -rf ./dist && tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "sls offline start",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreerajkytco/my-first-service.git"
+  },
+  "author": "sreeraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreerajkytco/my-first-service/issues"
+  },
+  "homepage": "https://github.com/sreerajkytco/my-first-service#readme",
+  "dependencies": {
+    "@types/aws-lambda": "8.10.50",
+    "@types/node": "13.13.2",
+    "axios": "0.19.2",
+    "class-transformer": "0.2.3",
+    "class-validator": "0.12.1",
+    "pg": "8.0.3",
+    "typeorm": "0.2.24",
+    "typeorm-naming-strategies": "1.1.0",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.661.0",
+    "aws-sdk-mock": "5.1.0",
+    "serverless-mocha": "1.12.0",
+    "serverless-pseudo-parameters": "2.5.0"
+  }
+}
