@@ -1,5 +1,10 @@
 # forex-batch
 
+initial steps:
+ - npm install
+ - npm run build # compiles the ts files
+
+
 1. To run locally the business logic/code:
 serverless invoke local --function forex-exchange-handler -e PG_HOST=localhost -e PG_USERNAME=kyt -e PG_PASSWORD=kyt -e PG_DATABASE=oms -e STAGE=local
 
