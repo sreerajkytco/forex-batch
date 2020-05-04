@@ -12,7 +12,7 @@ serverless invoke local --function forex-exchange-handler -e PG_HOST=localhost -
   serverless package --stage=qa
   serverless package --stage=prod
   
-  To deploy the package:
+5. To deploy the package:
   
   serverless deploy --stage=dev
   serverless deploy --stage=qa
