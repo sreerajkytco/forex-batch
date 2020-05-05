@@ -13,15 +13,16 @@ serverless invoke local --function forex-exchange-handler -e PG_HOST=localhost -
 3. current env=prod,qa,dev,local
   
 4. To create a packate:
-  serverless package --stage=dev 
-  serverless package --stage=qa
-  serverless package --stage=prod
+
+  - serverless package --stage=dev 
+  - serverless package --stage=qa
+  - serverless package --stage=prod
   
 5. To deploy the package:
   
-  serverless deploy --stage=dev
-  serverless deploy --stage=qa
-  serverless deploy --stage=prod
+   - serverless deploy --stage=dev
+   - serverless deploy --stage=qa
+   - serverless deploy --stage=prod
   
   
   
