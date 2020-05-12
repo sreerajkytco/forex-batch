@@ -2,7 +2,7 @@ env: "dev"
 memorySize: 256
 timeout: 15
 maximumRetryAttempts: 1
-SCHEDULE_TIME_FREQUENCY: "10 minutes"
+SCHEDULE_TIME_FREQUENCY: "4 hours"
 PG_SECRET_KEY: "skynet-qa/rds/oms"
 EXCHANGE_RATE_URL: "https://sit-secure.yappay.in/Yappay/forex-manager/fetchExchangeRate"
 FOREX_API_BEARER_TOKEN: "Basic YWRtaW46YWRtaW4="

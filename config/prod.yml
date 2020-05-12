@@ -1,6 +1,6 @@
 env: "prod"
 memorySize: 1024
-timeout: 60
+timeout: 15
 maximumRetryAttempts: 1
 SCHEDULE_TIME_FREQUENCY: "3 hours"
 PG_SECRET_KEY: "not-yet-set"
