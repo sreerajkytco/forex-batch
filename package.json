@@ -29,7 +29,7 @@
   "dependencies": {
     "@types/aws-lambda": "8.10.50",
     "@types/node": "13.13.2",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "class-transformer": "0.2.3",
     "class-validator": "0.12.1",
     "pg": "8.0.3",
