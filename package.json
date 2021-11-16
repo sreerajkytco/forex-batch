@@ -38,7 +38,7 @@
     "typescript": "3.8.3"
   },
   "devDependencies": {
-    "aws-sdk": "2.661.0",
+    "aws-sdk": "2.814.0",
     "aws-sdk-mock": "5.1.0",
     "eslint": "6.8.0",
     "serverless-mocha": "1.12.0",
